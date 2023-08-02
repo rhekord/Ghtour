@@ -1,0 +1,47 @@
+.hero-title p {
+  color: white;
+}
+.form-container {
+    max-width: 500px;
+    margin: 1rem auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-image: url("../assets/kente.jpg");
+
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border:none;
+    background-color:#e0dcdc;
+    border-radius: 5px;
+    border-bottom:solid;
+    border-color:#ff8800;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #ff8800;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff6600;
+  }
+  
