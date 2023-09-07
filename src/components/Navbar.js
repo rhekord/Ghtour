@@ -21,9 +21,9 @@ class Navbar extends Component {
             </div>
             <ul className={this.state.clicked ? "nav-menu active" : "nav-menu" }>
            
-              <li> <Link className="nav-links" to = "./" > <FontAwesomeIcon icon={faHome} className="nav-icon"/> Home</Link> </li> 
-              <li> <Link className="nav-links" to = "./sites" > <FontAwesomeIcon icon={faMapMarkerAlt} className="nav-icon"/> Tour Sites</Link> </li> 
-              <li> <Link className="nav-links" to = "./booking" > <FontAwesomeIcon icon={faBook} className="nav-icon"/> Booking</Link> </li> 
+              <li> <Link className="nav-links" to = "/" > <FontAwesomeIcon icon={faHome} className="nav-icon"/> Home</Link> </li> 
+              <li> <Link className="nav-links" to = "/sites" > <FontAwesomeIcon icon={faMapMarkerAlt} className="nav-icon"/> Tour Sites</Link> </li> 
+              <li> <Link className="nav-links" to = "/booking" > <FontAwesomeIcon icon={faBook} className="nav-icon"/> Booking</Link> </li> 
            
             </ul> 
         </nav>
